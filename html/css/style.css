@@ -59,18 +59,33 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 30px;
+}
+
+.login img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 }
 
 .order{
-    width: 50px;
-    height: 50px;
-    background-color: black;
+    width: 54px;
+    height: 54px;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    border-radius: 50px;
+    border-radius: 30px;
+    margin-right: 15px;
+    
+}
+
+.order img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
 }
 
 .parent{
@@ -153,24 +168,20 @@
 footer{
     width: 100%;
     height: 56px;
-    
+    justify-content: space-evenly;
     align-items: center;
     display: flex;
     flex-direction: row;
 }
 
 .text1{
-  
-    width: 50%;
+    width: 20%;
     height: 56px;
-    
     align-items: center;
 }
 
 .text2{
-   
-    width: 50%;
+    width: 20%;
     height: 56px;
     align-items: center; 
-    
 }

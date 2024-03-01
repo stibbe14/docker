@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>The Red Cafe</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/logo.jpg">
 </head>
 <body>
 <div class="all">
@@ -20,10 +21,10 @@
             <a href="#">Contact</a>
         </div>
         <div class="login">
-
+        <a href="#"><img src="assets/user.png" alt=""></a>
         </div>
         <div class="order">
-
+        <a href="#"><img src="assets/bag.png" alt=""></a>
         </div>
 
     </div>
@@ -58,9 +59,7 @@
 
 <div class="text2">
 <p>
-Heyendaalseweg 98,
-    
-    Nijmegen 6525EE
+theredcafe@gmail.com, +31612345678
 </p>
 </div>    
 
