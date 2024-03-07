@@ -8,6 +8,7 @@
     <link rel="icon" href="assets/logo.jpg">
 </head>
 <body>
+    <!-- jo -->
 <div class="all">
     <div class="infobalk">
         <div class="logo">
