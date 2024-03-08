@@ -17,7 +17,7 @@
     <div class="parent">
         <div class="menubalk">
             <a href="index.php">Home</a>
-            <a href="#">Menu</a>
+            <a href="shopping.php">Menu</a>
             <a href="#">Bezorging</a>
             <a href="#">Contact</a>
         </div>
