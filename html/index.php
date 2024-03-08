@@ -16,13 +16,13 @@
         </div>
     <div class="parent">
         <div class="menubalk">
-            <a href="#">Home</a>
+            <a href="index.php">Home</a>
             <a href="#">Menu</a>
             <a href="#">Bezorging</a>
             <a href="#">Contact</a>
         </div>
         <div class="login">
-        <a href="#"><img src="assets/user.png" alt=""></a>
+        <a href="login.php"><img src="assets/user.png" alt=""></a>
         </div>
         <div class="order">
         <a href="#"><img src="assets/bag.png" alt=""></a>
