@@ -19,7 +19,7 @@
             <a href="index.php">Home</a>
             <a href="shopping.php">Menu</a>
             <a href="#">Bezorging</a>
-            <a href="contact.php">Contact</a>
+            <a href="#">Contact</a>
         </div>
         <div class="login">
         <a href="login.php"><img src="assets/user.png" alt=""></a>
@@ -30,24 +30,42 @@
 
     </div>
 </div>
-        <div class="middle">
-            <div class="textarea">
-                <div class="headtext">
-                    <h1>Lorem ipsum dolor sit amet</h1>
-                </div>
-                <div class="littletext">
-                <h3>consectetur adipiscing elit, sed do eiusmod eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proidenttempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. </h3>
-                </div>
-                <div class="shopbutton">
-                    <div class="shopbtn">
-                       <a href="shopping.php">Bestel nu</a>
-                    </div>
-                </div>
-            </div>
-            <div class="imagearea">
-                <img src="assets/food.png" alt="">
-            </div>
+       
+<div class="centerbox1">
+   
+<div class="contact-form">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
         </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+   
+
+    
+        
+    
+</div>
+
+
+
+
+
+
+
+
 
 <footer>
 <div class="text1">
@@ -78,5 +96,6 @@ theredcafe@gmail.com, +31612345678
 
 
 </div>
+<script src="js/contact.js"></script>
 </body>
 </html>

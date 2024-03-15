@@ -19,7 +19,7 @@
             <a href="index.php">Home</a>
             <a href="shopping.php">Menu</a>
             <a href="#">Bezorging</a>
-            <a href="#">Contact</a>
+            <a href="contact.php">Contact</a>
         </div>
         <div class="login">
         <a href="login.php"><img src="assets/user.png" alt=""></a>
@@ -31,8 +31,76 @@
     </div>
 </div>
        
+<div class="centerbox">
+    <div class="productbox">
+        <div class="foto">
+            <img src="assets/bao.jpg" alt="">
+        </div>
+        <div class="beschrijving">
+            <div class="title">
+                <h1>Varkens Bao</h1>
+            </div>
+            <div class="beschrijving1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet porttitor eget. Blandit libero volutpat sed cras. Sed faucibus turpis in eu. Scelerisque eleifend donec pretium vulputate. Tincidunt ornare massa eget egestas purus viverra
+            </div>
+        </div>
+        <div class="prijs">
+            <div class="niks"></div>
 
+            <div class="winkelmandje">
+                -   €6,95   +
+                </div>
+    
+        </div>
+        
+    </div>
 
+    <div class="productbox">
+        <div class="foto">
+            <img src="assets/pokebowl.jpg" alt="">
+        </div>
+        <div class="beschrijving">
+            <div class="title">
+                <h1>Pokebowl Zalm</h1>
+            </div>
+            <div class="beschrijving1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet porttitor eget. Blandit libero volutpat sed cras. Sed faucibus turpis in eu. Scelerisque eleifend donec pretium vulputate. Tincidunt ornare massa eget egestas purus viverra
+            </div>
+        </div>
+        <div class="prijs">
+            <div class="niks"></div>
+
+            <div class="winkelmandje">
+                -   €12,95   +
+                </div>
+    
+        </div>
+        
+    </div>
+
+    <div class="productbox">
+        <div class="foto">
+            <img src="assets/dumbling.avif" alt="">
+        </div>
+        <div class="beschrijving">
+            <div class="title">
+                <h1>Dumbling Varken</h1>
+            </div>
+            <div class="beschrijving1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet porttitor eget. Blandit libero volutpat sed cras. Sed faucibus turpis in eu. Scelerisque eleifend donec pretium vulputate. Tincidunt ornare massa eget egestas purus viverra
+            </div>
+        </div>
+        <div class="prijs">
+            <div class="niks"></div>
+
+            <div class="winkelmandje">
+                -   €8,50   +
+                </div>
+    
+        </div>
+        
+    </div>
+</div>
 
 
 

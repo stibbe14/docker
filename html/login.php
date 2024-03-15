@@ -19,7 +19,7 @@
             <a href="index.php">Home</a>
             <a href="shopping.php">Menu</a>
             <a href="#">Bezorging</a>
-            <a href="#">Contact</a>
+            <a href="contact.php">Contact</a>
         </div>
         <div class="login">
         <a href="login.php"><img src="assets/user.png" alt=""></a>
@@ -35,7 +35,7 @@
 <div class="wrapper">
         <div class="container">
           <div class="sign-up-container">
-            <form>
+            <form action='login_logic.php' name='login_logic.php' method = 'POST'> 
               <h1>Maak een account</h1>
               <div class="social-links">
                 <div>
@@ -61,7 +61,7 @@
             </form>
           </div>
           <div class="sign-in-container">
-            <form>
+            <div class="snoepert">
               <h1>login</h1>
               <div class="social-links">
                 <div>
@@ -79,11 +79,14 @@
                 
                 
               </div>
+              
               <span>of gebruik je account</span>
-              <input type="email" placeholder="Email">
-              <input type="password" placeholder="Wachtwoord">
-              <button class="form_btn">Login</button>
+            <form action='login_logic.php' name='login_logic.php' method = 'POST'> 
+              <input name = "username" type="text" placeholder="Email">
+              <input name = "password" type="password" placeholder="Wachtwoord">
+              <button type="submit" value = "login" class="form_btn">Login</button>
             </form>
+          </div>
           </div>
           <div class="overlay-container">
             <div class="overlay-left">

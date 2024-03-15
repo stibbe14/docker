@@ -186,6 +186,7 @@ footer{
     align-items: center; 
 }
 
+
 .wrapper{
     width: 100%;
     height: 544px;
@@ -204,7 +205,7 @@ footer{
     min-height: 500px;
     overflow: hidden;            
 }
-form{
+.snoepert{
     background: #ebecf0;
     display: flex;
     flex-direction: column;
@@ -212,7 +213,17 @@ form{
     height: 100%;
     justify-content: center;
     align-items: center;
-}
+
+  }
+
+  form{
+    width: 379.5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
 form input{
     background: #eee;
     padding: 16px;
@@ -369,4 +380,215 @@ span{
 
 .overlay-left p{
     width: 314px;
+}
+
+.center{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.box12{
+    width: 80%;
+    height: 50%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.box34{
+    width: 80%;
+    height: 50%;
+   justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.box1{
+    width: 40%;
+    height: 100%;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.box2{
+    width: 40%;
+    height: 100%;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.box3{
+    width: 40%;
+    height: 100%;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.box4{
+    width: 40%;
+    height: 100%;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: black;
+    justify-content: ;
+    display: flex;
+    flex-direction: column;
+}
+
+.centerbox{
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 50px;
+
+}
+
+.productbox{
+    width: 80%;
+    height: 200px;
+    border-radius: 80px;
+    border-style: solid;
+    border-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: -5px -5px 10px #fff, 5px 5px 8px #babebc;
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+.beschrijving{
+    width: 700px;
+    height: 150px;
+    
+}
+
+.prijs{
+    width: 100px;
+    height: 150px;
+
+}
+
+.title h1{
+    height: 20px;
+}
+
+.foto img{
+    width: 150px;
+    height: 150px;
+}
+
+.niks{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+}
+
+.winkelmandje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    background-color: red;
+    border-radius: 30px;
+}
+
+
+.centerbox1{
+    width: 100%;
+    height: 560px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+ 
+
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: #000;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2.5px solid #ddd;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #000;
+   
+}
+
+.contact-form button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #cc2029d2;
+    color: white;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.contact-form:hover {
+    background-color: #cc2029;
+}
+
+.boxtext{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.shoppingbox{
+    width: 100%;
+    height: 80%;
+    border-radius: 60px;
 }
