@@ -35,7 +35,7 @@
 <div class="wrapper">
         <div class="container">
           <div class="sign-up-container">
-            <form action='login_logic.php' name='login_logic.php' method = 'POST'> 
+            <form action='register_logic.php' name='register_logic.php' method = 'POST'> 
               <h1>Maak een account</h1>
               <div class="social-links">
                 <div>
@@ -53,10 +53,10 @@
                 
               </div>
               <span>Of registreer hier met je email</span>
-              <input type="text" placeholder="Naam">
-              <input type="email" placeholder="Email">
-              <input type="password" placeholder="Wachtwoord">
-              <input type="password" placeholder="Herhaal Wachtwoord">
+              <input type="text" name="username" placeholder="Naam">
+              <input type="email" name="email" placeholder="Email">
+              <input type="password" name="pass" placeholder="Wachtwoord">
+              <input type="password" name="pass2" placeholder="Herhaal Wachtwoord">
               <button class="form_btn">sign in</button>
             </form>
           </div>

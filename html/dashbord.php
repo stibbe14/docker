@@ -31,7 +31,7 @@ if (!isset($_SESSION["user"])) {
             <a href="#">Omzet</a>
         </div>
         <div class="login">
-        <a href="login.php"><img src="assets/user.png" alt=""></a>
+        <a href="logout.php"><img src="assets/user.png" alt=""></a>
         </div>
        
 

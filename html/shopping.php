@@ -1,3 +1,7 @@
+<?php
+include "pages/conn.php";
+?> 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,6 +37,7 @@
        
 <div class="centerbox">
     <div class="productbox">
+   
         <div class="foto">
             <img src="assets/bao.jpg" alt="">
         </div>
@@ -41,7 +46,14 @@
                 <h1>Varkens Bao</h1>
             </div>
             <div class="beschrijving1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet porttitor eget. Blandit libero volutpat sed cras. Sed faucibus turpis in eu. Scelerisque eleifend donec pretium vulputate. Tincidunt ornare massa eget egestas purus viverra
+                 <?php
+                 $stmt = $connection->query("SELECT * FROM producten");
+                 while ($row = $stmt->fetch()) {
+                 echo $row['naam']."<br />\n";
+                 }
+
+                 ?>
+        
             </div>
         </div>
         <div class="prijs">

@@ -186,7 +186,6 @@ footer{
     align-items: center; 
 }
 
-
 .wrapper{
     width: 100%;
     height: 544px;
@@ -575,7 +574,7 @@ span{
     transition: 0.5s;
 }
 
-.contact-form:hover {
+.contact-form button:hover {
     background-color: #cc2029;
 }
 
