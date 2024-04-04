@@ -60,7 +60,7 @@
 
 <div class="text2">
 <p>
-theredcafe@gmail.com, +31612345678
+theredcafe@gmail.com, +3161234567
 </p>
 </div>    
 
