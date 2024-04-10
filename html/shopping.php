@@ -116,7 +116,21 @@ include "pages/conn.php";
 
 
 
+<div class="div">
+<?php
+$stmt = $connection->prepare("SELECT * FROM producten");
+$stmt -> execute();
+$data = $stmt->fetchAll();
 
+foreach ($data as $row){
+    echo $row ['naam'];
+    echo "<a href='pages/product_update.php?id=".$row['id']."'>Update</a>"; 
+}
+
+?>
+
+
+</div>
 
 
 

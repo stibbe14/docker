@@ -446,7 +446,7 @@ span{
     border-radius: 20%;
     border-style: solid;
     border-color: black;
-    justify-content: ;
+    justify-content:center;
     display: flex;
     flex-direction: column;
 }
