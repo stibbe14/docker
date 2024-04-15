@@ -52,7 +52,11 @@ if (!isset($_SESSION["user"])) {
             <h1>werknemer van de maand</h1>
         </div>
         <div class="box4">
-            <div class="boxtext">    <h1>menu</h1> </div>
+            <div class="boxtext">    
+                <h1>menu</h1> 
+        
+        
+        </div>
             <div class="shoppingbox">
 
                 

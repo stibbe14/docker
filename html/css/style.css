@@ -591,3 +591,17 @@ span{
     height: 80%;
     border-radius: 60px;
 }
+
+.update{
+    width: 20%;
+    height: 50px;
+    border-radius: 80px;
+    border-style: solid;
+    border-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: -5px -5px 10px #fff, 5px 5px 8px #babebc;
+    text-decoration: none;
+}
