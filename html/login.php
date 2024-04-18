@@ -82,7 +82,7 @@
               
               <span>of gebruik je account</span>
             <form action='login_logic.php' name='login_logic.php' method = 'POST'> 
-              <input name = "username" type="text" placeholder="Email">
+              <input name = "username" type="text" placeholder="Gebruikers naam">
               <input name = "password" type="password" placeholder="Wachtwoord">
               <button type="submit" value = "login" class="form_btn">Login</button>
             </form>

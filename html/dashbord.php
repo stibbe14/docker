@@ -1,10 +1,11 @@
 <?php
 session_start();
-if (!isset($_SESSION["user"])) {
+include 'pages/conn.php';
+  if (!isset($_SESSION["user"])) {
     header("location: login.php");
-    exit();
-}
-
+     exit();
+    }
+    
 ?>
 
 <!DOCTYPE html>
@@ -42,6 +43,7 @@ if (!isset($_SESSION["user"])) {
     <div class="box12">
         <div class="box1">
             <h1>Omzet</h1>
+
         </div>
         <div class="box2">
             <h1>Werknemers</h1>
